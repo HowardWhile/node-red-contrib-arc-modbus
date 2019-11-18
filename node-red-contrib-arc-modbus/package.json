@@ -1,26 +1,26 @@
 {
-  "author": "Howard Cheng",
-  "bugs": {
-    "url": "https://bitbucket.org/HowardCheng/nodered-node-arc-modbus/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "a powerful modbus tool for node-red",
-  "homepage": "https://bitbucket.org/HowardCheng/nodered-node-arc-modbus",
-  "keywords": [
-    "node-red",
-    "modbus"
-  ],
-  "license": "MIT",
-  "main": "arc-modbus-polling.js",
-  "name": "node-red-contrib-arc-modbus",
-  "node-red": {
-    "nodes": {
-      "arc-modbus-polling": "arc-modbus-polling.js"
-    }
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.1.5"
+    "author": "Howard",
+    "bugs": {
+        "url": "https://github.com/HowardWhile/node-red-contrib-arc-modbus/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "a powerful modbus tool for node-red",
+    "homepage": "https://github.com/HowardWhile/node-red-contrib-arc-modbus",
+    "keywords": [
+        "node-red",
+        "modbus"
+    ],
+    "license": "MIT",
+    "main": "arc-modbus-polling.js",
+    "name": "node-red-contrib-arc-modbus",
+    "node-red": {
+        "nodes": {
+            "arc-modbus-polling": "arc-modbus-polling.js"
+        }
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "0.1.6"
 }
