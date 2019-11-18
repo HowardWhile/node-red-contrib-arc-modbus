@@ -229,7 +229,7 @@ function Fc16(id, addstart, length, values) {
 
 function bools2buffer(iBools) {
     let buffer_length = Math.floor((iBools.length - 1) / 8) + 1;
-    let rValue = Buffer.alloc(buffer_length)
+    let rValue = Buffer.alloc(buffer_length);
     
     for (let i = 0; i < iBools.length; i++) {
         let byte_idx = Math.floor(i / 8);
